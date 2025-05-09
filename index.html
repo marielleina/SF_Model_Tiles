@@ -28,7 +28,7 @@
         var map = L.map('map', {attributionControl: false}).setView([37.7529, -122.434], 11);
         L.control.attribution({prefix: false}).addTo(map);
         var tilesource_layer = 
-        L.tileLayer('https://github.com/marielleina/SF_Model_Tiles/main/{z}/{x}/{y}.png', 
+        L.tileLayer('https://raw.githubusercontent.com/marielleina/SF_Model_Tiles/main/{z}/{x}/{y}.png', 
             {minZoom: 7, 
             maxZoom: 15, 
             tms: false, 
